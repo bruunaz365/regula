@@ -35,7 +35,7 @@ jobs:
     
     # Echo Environment Variables
     - name: echo environment variable
-      run: echo {{ env.GITHUB_WORKSPACE }}
+      run: echo {GITHUB_WORKSPACE}
 
     # Run Regula Static Code Analysis
     - name: Regula Static Code Analysis
