@@ -45,6 +45,11 @@ jobs:
           echo "GITHUB_WORKSPACE: ${GITHUB_WORKSPACE}"
           echo "GITHUB_SHA: ${GITHUB_SHA}"
           echo "GITHUB_REF: ${GITHUB_REF}"
+          
+    # Browse Default Workspace
+    - name: List Default Workspace Contents
+      run: |
+        ls $GITHUB_WORKSPACE
 
     # Run Regula Static Code Analysis
     - name: Regula Static Code Analysis
