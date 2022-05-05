@@ -50,6 +50,7 @@ jobs:
     - name: List Default Workspace Contents
       run: |
         ls $GITHUB_WORKSPACE
+        ls $GITHUB_WORKSPACE/Terraform
 
     # Run Regula Static Code Analysis
     - name: Regula Static Code Analysis
